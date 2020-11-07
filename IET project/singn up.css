@@ -1,0 +1,141 @@
+*,*:after,*:before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(left,#7579ff,#b224ef);
+}
+input,button{
+  border: none;
+  outline: none;
+  background: none;
+}
+.content{
+  width:600px;
+  height: 600px;
+  background-color: #fff;
+  text-align: center;
+}
+.inner{
+  position: relative;
+  width:640px;
+  height: 100%;
+  padding:50px 30px;
+  -webkit-transition:-webkit-transform 1.2s ease-in-out;
+  transition:transform 1.2s ease-in-out;
+  transition:transform 1.2s ease-in-out,-webkit-transform 1.2s ease-in-out;
+}
+.inner h2{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Itim', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+label{
+  display: block;
+  width: 250px;
+  margin: 25px auto 0;
+  text-align: center;
+}
+label span{
+  font-size: 14px;
+  font-weight: 600;
+  color: #505f75;
+  text-transform: uppercase;
+}
+input
+{
+  display:block;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(109,93,93, 0.4);
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+hr{
+  width:260px;
+  margin: 0 auto;
+  border: 10px 0 0 0;
+
+  border-style: dotted;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  width :260px;
+  height: 35px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.or{
+  color
+}
+
+.submit{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  background: -webkit-linear-gradient(left,#7579ff,#b224ef);
+}
+.submit:hover{
+  background: -webkit-linear-gradient(left,#b224ef,#7579ff);
+}
+.Forgot-password{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Itim', cursive;
+  color: #0c0101;
+  cursor: pointer;
+  font-weight: 600;
+}
+.Forgot-password:hover{
+  color:red;
+}
+.social{
+  text-align:center;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.social ul{
+  list-style: none;
+}
+.social ul li{
+  display: inline-block;
+  margin: 25px 15px;
+  cursor: pointer;
+}
+.social img{
+  width:40px;
+  height: 40px;
+  align-items: center;
+}
+.social img:hover{
+  background-color:#b224ef;
+}
+.Ss{
+  font-family: 'Itim', cursive;
+}
+.sign-up:hover{
+  color:#b224ef;
+}
+.or
+{
+  font-family: 'Itim', cursive;
+  margin:10px auto;
+}
